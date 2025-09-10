@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+        /* FIRST BOX */
+.header {
+    background-color: #1F2937;
+    margin: 0 ;
+    padding: 0 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .main {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900px;
+    gap: 50px;
+}
+
+.hero .sentence, .top ul, .image-placeholder{
+    font-size : 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.top h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 10px 0;
+}
+
+.first {
+    background-color: #3882F6;
+    border-radius: 7px;
+    border-color: #3882F6;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px 20px;
+    width: fit-content;
+    cursor: pointer; 
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-end;
+    gap: 16px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-placeholder {
+    background-color: gray;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+        /* SECOND BOX */
+.headu {
+    font-size: 36px;
+    color: #1F2937;
+    FONT-WEIGHT: 900;
+    text-align: center;
+}
+
+.container {
+    padding: 0 150px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;    /* ye zaroori hai color laane ke liye */
+    border-color: rgb(79, 79, 172);
+    border-width: bold;
+    border-radius: 20px;
+    background-color: #fff;
+    gap: 20px;
+}
+.text {
+    flex-wrap: wrap;
+}
+
+        /* THIRD BOX */
+.body2 {
+    background: #E5E7EB;
+    width: 100%;
+    padding: 80px;
+}
+
+.body2 p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    flex-wrap: wrap;
+}
+.body2 strong {
+    display: flex;
+    justify-content: end;
+}
+
+        /* LAST BOX */
+.smalldiv {
+    margin: 80px;
+    padding: 40px;
+    border-radius: 10px;;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.b3 {
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    flex-wrap: wrap;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+        /* FOOTER */
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+height: 100vh; lagane se kya hota hai?
+Jab aap kisi element pe height: 100vh; lagate ho, toh:
+Wo element screen ke full height (jitni browser window ki height hai) ko occupy karega.
+Chahe usme content ho ya na ho, wo poori screen ke barabar dikhega vertically. */
